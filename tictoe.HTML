@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="tictoe.CSS">
+</head>
+<body>
+    <nav>
+        <ul>Tic tac Toe Game</ul>
+    </nav>
+    <div class="gamecontainer">
+        <div class="gamebody" onmousedown="gamesound.play();">
+            <div class="box"  style="border-top: 0px; border-left: 0px;" ><span class="boxtext" ></span></div>
+            <div class="box " style="border-top: 0px;" ><span class="boxtext"></span></div>
+            <div class="box" style="border-top: 0px; border-right: 0px;"><span class="boxtext"></span></div>
+            <div class="box" style="border-left: 0px;"><span class="boxtext"></span></div>
+            <div class="box" ><span class="boxtext"></span></div>
+            <div class="box" style="border-right: 0px;"><span class="boxtext"></span></div>
+            <div class="box" style="border-bottom: 0px; border-left: 0px;"><span class="boxtext"></span></div>
+            <div class="box" style="border-bottom: 0px; "><span class="boxtext"></span></div>
+            <div class="box" style="border-bottom: 0px; border-right: 0px;"><span class="boxtext"></span></div>
+        </div>
+        <div class="gameinfo">   <h4>Welcome to Tic Tac Toe Game</h4></div>
+        <div class="turn">
+        <p>Turn of X</p></div>
+        <div class="info">
+        <button>Reset</button>
+        </div>
+        <div class="image">
+        <img src="dance-cartoon.gif" alt="">
+            </div>
+    </section>
+    <script src="tictoe.js"></script>
+</body>
+</html>

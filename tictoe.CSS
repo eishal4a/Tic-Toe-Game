@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: black;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    padding-top: 20px;
+}
+.gamebody{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+}
+.box:hover{
+    background-color: blueviolet;
+}
+.box{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.gamebody div{
+    border: 2px solid black;
+    
+}
+.gamecontainer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.gameinfo{
+    font-family:'Roboto' sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px #333232;
+}
+.turn{
+    padding-top: 50px ;
+    margin-left: -300px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: -80px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: .5s;
+    transition-duration: .5s;
+
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.image{
+    margin-top: 200px;
+    margin-left: -150px;
+    display: none;
+}
+.br{
+    border-right: 0px;
+}
+.bl{
+    border-left: 0px;
+}
+.bb{
+    border-bottom:0px;
+}
+.bt{
+    border-top: 0px;
+}
